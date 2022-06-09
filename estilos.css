@@ -17,7 +17,7 @@
     box-sizing: border-box;
     padding: 10px 20px;
     width: 100%;
-    height: 12vh;
+    height: 92px;
     background-color:#cf2B2B;
 }
 .topo h1{
@@ -37,12 +37,13 @@
     box-sizing: border-box;
     padding: 10px 20px;
     width: 100vw;
-    height: 10vh;
+    height: 92px;
     bottom: 0;
     background-color: #eee;
     
 }
 body{
+    font-family: var(--fonte2);
     width: 100vw;
     height: 100vh;
     background-color: #E5E5E5;
@@ -53,14 +54,19 @@ body{
 }
 .categoria-prato{
     margin: 20px 0;
+    width:100%;
+    overflow: scroll;
 }
 .categoria-prato p{
-    font-family: var(--fonte1);
+
     color:black;
     height: 25px;
     width: 250px;
     font-size: 22px;
     margin:31px 145px 17px 19px;
+}
+.categoria-prato>p {
+    font-family: var(--fonte1);
 }
 .carrossel{
     display: flex;
@@ -69,6 +75,7 @@ body{
     height: 220px;
 }
 .opcao-comida{
+    font-family: var(--fonte2);
     width: 172px;
     height: 216px;
     background:#FFFFFF;
@@ -85,6 +92,7 @@ body{
 }
 .prato {
     text-align: center;
+    width:172px;
 }
 .prato img{
     margin-top: 10px;
@@ -118,7 +126,7 @@ body{
     text-align: initial;
 }
 .button{
-    background-color: gray;
+    background-color: #CBCBCB;
     color: white;
     text-align: center;
     height: 80%;
